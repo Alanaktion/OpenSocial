@@ -1,0 +1,43 @@
+/* Single-column layout */
+header, #main, footer {
+	float: none;
+	display: block;
+	width: auto;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.user-info div {
+	float: none;
+	width: auto;
+}
+
+/* Simplify/Unify Style */
+body  {background:white,padding: 0 5px 5px 5px}
+input {border-radius: 2px}
+nav#nav-top span a {float:left}
+
+/* Hide unnecessary elements */
+header h1, .ga, .user-activity {
+	display: none;
+}
+
+/* Photo Gallery View */
+.gallery,.gallery-sm{padding:0}
+.gallery a img,.gallery img,.gallery-sm a img,.gallery-sm img {
+	padding:0;
+	margin:0;
+	border:none;
+}
+.gallery a img,.gallery img {
+	width: 24%;
+	height: auto;
+	margin: 1px;
+	border: none;
+}
+.gallery-sm a img,.gallery-sm img {
+	width: 16%;
+	margin-right: 0.6666666%;
+	height: auto;
+	max-width: 64px;
+	max-height: 64px;
+}

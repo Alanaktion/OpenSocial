@@ -1,0 +1,6 @@
+ErrorDocument 404 /404s.html
+
+# Cache static content for 1 year
+<filesMatch "\.(jpg|jpeg|png|gif|swf)$">
+Header set Cache-Control "max-age=29030400, public"
+</filesMatch>
