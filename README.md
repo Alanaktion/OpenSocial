@@ -2,7 +2,7 @@
 
 Easily build your own social network on an open platform, where you control all of the code.
 
-Based on my Xusix social network, OpenSocial is a powerful platform that you can build on to run your own unique social network.
+Based on @Alanaktion's Xusix social network, OpenSocial is a powerful platform that you can build on to run your own unique social network.
 
 ## Setup Instructions
 http://open.xusix.com/
